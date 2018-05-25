@@ -11,10 +11,7 @@ public class ParrotTrouble {
     // parrotTrouble(false, 6) → false
 
     public boolean parrotTrouble(boolean talking, int hour) {
-        if ((hour < 7 || hour > 20) && talking)
-            return true;
-
-        return false;
+        return (hour < 7 || hour > 20) && talking;
     }
 
 }

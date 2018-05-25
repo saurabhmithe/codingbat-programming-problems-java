@@ -10,12 +10,7 @@ public class PosNeg {
     // posNeg(-4, -5, true) → true
 
     public boolean posNeg(int a, int b, boolean negative) {
-        if (!negative)
-            return (((a < 0) && (b >= 0)) || ((a >= 0) && (b < 0)));
-        else if (negative)
-            return ((a < 0) && (b < 0));
-        else
-            return false;
+        return !negative ? a * b < 0 : a + b < 0;
     }
 
 }

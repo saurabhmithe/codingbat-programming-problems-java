@@ -12,11 +12,7 @@ public class MissingChar {
 
     public String missingChar(String str, int n) {
         int len = str.length();
-        if (n == 0) {
-            return str.substring(1, len);
-        } else {
-            return str.substring(0, n) + str.substring(n + 1, len);
-        }
+        return n == 0 ? str.substring(1, len) : str.substring(0, n) + str.substring(n+1, len);
     }
 
 }

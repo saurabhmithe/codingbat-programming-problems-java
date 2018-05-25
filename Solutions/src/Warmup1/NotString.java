@@ -11,11 +11,7 @@ public class NotString {
     // notString("not bad") → "not bad"
 
     public String notString(String str) {
-        if (str.startsWith("not")) {
-            return str;
-        } else {
-            return "not " + str;
-        }
+        return str.startsWith("not") ? str : "not " + str;
     }
 
 }

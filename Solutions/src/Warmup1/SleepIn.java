@@ -10,10 +10,7 @@ public class SleepIn {
     // sleepIn(false, true) → true
 
     public boolean sleepIn(boolean weekday, boolean vacation) {
-        if (!weekday || vacation)
-            return true;
-        else
-            return false;
+        return !weekday || vacation;
     }
 
 }
