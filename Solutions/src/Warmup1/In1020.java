@@ -9,7 +9,7 @@ public class In1020 {
     // in1020(8, 99) → false
 
     public boolean in1020(int a, int b) {
-        return (a >= 10 && a <= 20) || (b >=10) && (b <=20);
+        return (a >= 10 && a <= 20) || (b >= 10) && (b <= 20);
     }
 
 }

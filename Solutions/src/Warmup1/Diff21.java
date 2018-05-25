@@ -11,7 +11,7 @@ public class Diff21 {
 
     public int diff21(int n) {
         int difference = 21 - n;
-        return n <= 21? Math.abs(difference) : 2 * Math.abs(difference);
+        return n <= 21 ? Math.abs(difference) : 2 * Math.abs(difference);
     }
 
 }
