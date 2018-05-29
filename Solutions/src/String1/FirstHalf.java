@@ -9,7 +9,7 @@ public class FirstHalf {
     // firstHalf("abcdef") → "abc"
 
     public String firstHalf(String str) {
-        return str.substring(0,str.length()/2);
+        return str.substring(0, str.length() / 2);
     }
 
 }

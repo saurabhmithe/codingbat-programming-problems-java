@@ -11,7 +11,8 @@ public class LastChars {
 
     public String lastChars(String a, String b) {
         String aLast = a.length() > 0 ? a.substring(0, 1) : "@";
-        String bLast = b.length() > 0 ? b.substring(b.length() -1, b.length()) : "@";
+        String bLast = b.length() > 0 ? b.substring(b.length() - 1, b.length()) : "@";
         return aLast + bLast;
     }
+
 }

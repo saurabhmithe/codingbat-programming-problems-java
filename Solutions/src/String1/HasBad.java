@@ -11,8 +11,8 @@ public class HasBad {
     // hasBad("xxbadxx") → false
 
     public boolean hasBad(String str) {
-        if(str.length() > 2) {
-            return (str.substring(0,3).equals("bad") || (str.length() > 3 && str.substring(1,4).equals("bad")));
+        if (str.length() > 2) {
+            return (str.substring(0, 3).equals("bad") || (str.length() > 3 && str.substring(1, 4).equals("bad")));
         }
         return false;
     }

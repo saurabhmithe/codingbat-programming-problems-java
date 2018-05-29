@@ -10,7 +10,7 @@ public class Left2 {
     // left2("Hi") → "Hi"
 
     public String left2(String str) {
-        return str.length() > 2 ? str.substring(2,str.length()) + str.substring(0,2) : str;
+        return str.length() > 2 ? str.substring(2, str.length()) + str.substring(0, 2) : str;
     }
 
 }

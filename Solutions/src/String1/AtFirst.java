@@ -11,7 +11,7 @@ public class AtFirst {
 
     public String atFirst(String str) {
         String result = "";
-        if(str.length() >= 2) {
+        if (str.length() >= 2) {
             result = str.substring(0, 2);
         } else {
             result = str.length() < 1 ? "@@" : str.substring(0, 1) + "@";

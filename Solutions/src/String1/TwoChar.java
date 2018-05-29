@@ -11,10 +11,10 @@ public class TwoChar {
     // twoChar("java", 3) → "ja"
 
     public String twoChar(String str, int index) {
-        if(index > 0 && index < str.length()-1)
-            return str.substring(index,index+2);
+        if (index > 0 && index < str.length() - 1)
+            return str.substring(index, index + 2);
         else
-            return str.substring(0,2);
+            return str.substring(0, 2);
     }
 
 }

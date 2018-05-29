@@ -10,9 +10,9 @@ public class SeeColor {
     // seeColor("blueTimes") → "blue"
 
     public String seeColor(String str) {
-        if(str.startsWith("red"))
+        if (str.startsWith("red"))
             return "red";
-        if(str.startsWith("blue"))
+        if (str.startsWith("blue"))
             return "blue";
 
         return "";
