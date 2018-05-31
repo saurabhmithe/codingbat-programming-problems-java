@@ -10,7 +10,7 @@ public class Special11 {
     // specialEleven(24) → false
 
     public boolean specialEleven(int n) {
-        return((n%11)==0 || (n%11)==1);
+        return ((n % 11) == 0 || (n % 11) == 1);
     }
 
 }

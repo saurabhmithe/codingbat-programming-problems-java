@@ -10,8 +10,8 @@ public class Old35 {
     // old35(15) → false
 
     public boolean old35(int n) {
-        boolean isThree = n%3==0;
-        boolean isFive = n%5==0;
+        boolean isThree = n % 3 == 0;
+        boolean isFive = n % 5 == 0;
         return ((isThree || isFive) && !(isThree && isFive));
     }
 

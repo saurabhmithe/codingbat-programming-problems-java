@@ -10,7 +10,7 @@ public class Less20 {
     // less20(20) → false
 
     public boolean less20(int n) {
-        return((n%20)==18  || (n%20)==19);
+        return ((n % 20) == 18 || (n % 20) == 19);
     }
 
 }
