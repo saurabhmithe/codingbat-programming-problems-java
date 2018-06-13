@@ -11,7 +11,7 @@ public class AddStar {
     // addStar(["*"]) → ["**"]
 
     public List<String> addStar(List<String> strings) {
-        strings.replaceAll(n -> n + "*");
+        strings.replaceAll(s -> s + "*");
         return strings;
     }
 

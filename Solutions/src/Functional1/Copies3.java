@@ -12,7 +12,7 @@ public class Copies3 {
     // copies3(["hello", "there"]) → ["hellohellohello", "theretherethere"]
 
     public List<String> copies3(List<String> strings) {
-        strings.replaceAll(n -> n + n + n);
+        strings.replaceAll(s -> s + s + s);
         return strings;
     }
 
